@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				font-family: 궁서체, 바탕체;
+				}
+		</style>
+	</head>
+	<body>
+		<h1>이순신</h1>
+		<form action="response.html" method="get">
+			<table>
+				<tr><td>이름: </td><td><input type="text" name="name"/></td></tr>
+				<tr><td>비밀번호: </td><td><input type="password" name="password" /></td></tr>
+				<tr><td colspan="2"><input type="submit" value="확인"/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
