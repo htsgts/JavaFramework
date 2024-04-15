@@ -1,0 +1,20 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1 th:text="${heading}">전달된 값</h1>
+		<p>사용자가 입력한 유저정보</p>
+		<table cellspacing="0" border="1">
+			<tr>
+				<td>name : </td><td th:text="${userDTO.getUserName()}"></td>
+			</tr>
+			<tr>
+				<td>id : </td><td th:text="${userDTO.getUserId()}"></td>
+			</tr>
+			<tr>
+				<td>phone : </td><td th:text="${userDTO.getUserPhone()}"></td>
+			</tr>
+		</table>
+	</body>
+</html>
