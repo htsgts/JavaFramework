@@ -1,0 +1,18 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<style>
+			h4{
+				color: green;
+			}
+			h5{
+				color: aqua;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>userdatat.html</h3>
+		<b>전달받은 데이터</b>
+		<h4 th:text ="'이름 : '+${name}"></h4>
+		<h5 th:text ="'업적 : '+${achievement}"></h5>
+	</body>
+</html>
